@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            div {
+                border: dashed 2px purple; 
+                font-size: 2rem;
+                
+            }
+        </style>
+
+    </head>
+    <body>
+        <!--Espaçamento no bootstrap: Padding e Margin-->
+        <div class="py-4">Abobrinha</div>
+        <div class="px-4">Abobrinha</div>
+        <div class="m-5">Abobrinha</div>
+        <div class="my-2">Abobrinha</div>
+
+        <!--Imagens-->
+        <div class="m-3">
+            <img src="surf.png" alt="Pessoa surfando" class="mx-auto d-block" width="200px">
+            <img src="surf.png" alt="Pessoa surfando" class="img-thumbnail" width="200px">
+            <img src="surf.png" alt="Pessoa surfando" class="img-fluid rounded-circle bg-primary" width="200px">
+        </div>
+
+        <!--Cores no bootstrap-->
+        <div class="my-2 bg-primary text-danger">Olá tudo bem?</div>
+        <div class="my-2 bg-warning text-white">Olá tudo bem?</div>
+
+        <!--Flexbox-->
+        <div class="d-flex flex-column">
+            <div class="align-self-end"> 1 </div>
+            <div class="align-self-center"> 3 </div>
+            <div class="align-self-start"> 2 </div>
+            
+        </div>
+        <div class="d-flex flex-column-reverse">
+            <div class="align-self-end"> 1 </div>
+            <div class="align-self-center"> 3 </div>
+            <div class="align-self-start"> 2 </div>
+            
+        </div>
+
+        <!--Grid Imagem-->
+        <div class="container-fluid">
+            <img src="surf.png">
+        </div>
+        <div class="container">
+            <img src="surf.png">
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 bg-danger">Oie</div>
+                <div class="col-2 bg-danger">Oie</div>
+                <div class="col-5 bg-danger">Oie</div>
+                <div class="col-2 bg-danger">Oie</div>
+            </div>
+        </div>
+
+        <!--Responsividade-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-1 bg-primary">1</div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-1 bg-info">2</div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-1 bg-primary">3</div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-1 bg-success">4 </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-1 bg-danger">5</div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-1 bg-primary">6 </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-1 bg-warning">7</div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-1 bg-danger">8</div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-1 bg-secondary">9</div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-1 bg-primary">10</div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-1 bg-secondary">11</div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-xl-1 bg-info">12</div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4 offset-8 bg-danger">oi</div>
+            </div>
+        </div>
+
+        <!--Alert-->
+        <div class="alert alert-info">
+            Deu tudo certo
+        </div>
+        <div class="alert alert-info">
+            Deu tudo certo <a href="#" class="alert-link"> Ver mais</a>
+        </div>
+
+        <!--Barra de progresso-->
+        <div class="progress">
+            <div class="progress-bar bg-success progress-bar-animated progress-bar-striped" style="width: 50%;"> 50%</div>
+        </div>
+
+        <!--Paginação-->
+       <div>
+        <nav>
+            <ul class="pagination"> 
+                <li class="page-item">
+                    <a href="#" class="page-link">Anterior</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link">1</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link">2</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link">3</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link">Proximo</a>
+                </li>
+            </ul>
+        </nav>
+       </div>
+
+       <div>
+           <button class="btn btn-outline-info"> Entrar </button>
+       </div>
+
+
+
+    </body>
+</html>
